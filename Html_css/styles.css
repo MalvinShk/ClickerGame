@@ -1,0 +1,58 @@
+/* styles.css */
+.upgrades {
+    margin-top: 20px;
+}
+
+.upgrade {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.upgrade:hover {
+    background-color: #ccc;
+}
+
+#btm{
+    position: relative;
+    border-style: none;
+    padding: 10px;
+    background-color: #301010;
+    border-radius: 5px;
+    color: #907070;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    top: 25%;
+    margin-top: -40%;
+}
+#btm::after{
+    content:'';
+    position: absolute;
+    z-index: -1;
+    top: 0; left: 0;
+    background-color: none;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    box-shadow: 0 0 5px 3px #907070;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: bottom;
+    padding: 10px;
+}
+/* styles.css */
+
+.button {
+    padding: 15px 30px; /* Adjust padding to increase button size */
+    font-size: 16px; /* Adjust font size for button text */
+    margin: 10px; /* Add margin for spacing between buttons */
+}
